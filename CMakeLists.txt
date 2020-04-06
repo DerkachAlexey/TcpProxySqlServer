@@ -16,10 +16,6 @@ set( SRC main.cpp
 
 add_executable( ${CMAKE_PROJECT_NAME} ${SRC})
 
-SET(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "C:/Program Files/boost_1_69_0")
-SET(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "C:/Program Files/boost_1_69_0/libs")
-
-
 find_package( Boost )
 
 

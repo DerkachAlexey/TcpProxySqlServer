@@ -34,7 +34,7 @@ void Connection::start(std::string & remote_server_address, unsigned short remot
 {
 	auto self_connection = shared_from_this();
 
-	//connect to the server
+
 	server_socket_.async_connect(
 		ip::tcp::endpoint(ip::address::from_string(remote_server_address), remote_server_port),
 		[self_connection](const boost::system::error_code & error_code)
