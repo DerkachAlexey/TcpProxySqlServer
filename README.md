@@ -1,2 +1,2 @@
 # TcpProxySqlServer
-proxy server
+asynchronous proxy TCP server for SQL
